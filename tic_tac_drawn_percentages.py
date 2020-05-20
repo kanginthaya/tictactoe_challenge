@@ -16,8 +16,7 @@ X = ['', '', '',
 
 def check_gameover(X):
     '''Check if game is over.
-    '''
-    
+    '''    
     # Check for X's     
     game_over = False
     
@@ -196,9 +195,4 @@ for item1 in i1:
 
 print('Total number of possible games: {}'.format(total_runs))
 print('Total number of wins: {}'.format(total_wins))
-print('Percentage of drawn games = {:.3f}%'.format(((total_runs-total_wins)/total_runs)*100))
-
-                        
-        
-    
-    
+print('Percentage of drawn games = {:.3f}%'.format(((total_runs-total_wins)/total_runs)*100)) 
